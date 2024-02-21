@@ -25,17 +25,17 @@
             </intent-filter>
         </activity>
         <!--  添加AccessibilityService配置    -->
-        <service android:name=".service.AccessService"
-            android:label="@string/access_name"
-            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.accessibilityservice.AccessibilityService" />
-            </intent-filter>
-            <meta-data
-                android:name="android.accessibilityservice"
-                android:resource="@xml/allocation" />
-        </service>
+<!--        <service android:name=".service.AccessService"-->
+<!--            android:label="@string/access_name"-->
+<!--            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.accessibilityservice.AccessibilityService" />-->
+<!--            </intent-filter>-->
+<!--            <meta-data-->
+<!--                android:name="android.accessibilityservice"-->
+<!--                android:resource="@xml/allocation" />-->
+<!--        </service>-->
     </application>
 
 </manifest>

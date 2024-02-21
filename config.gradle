@@ -85,8 +85,8 @@ ext {
             flexbox           : "com.google.android.flexbox:flexbox:${dependVersion["flexboxVersion"]}",
 //
             //路由
-            aroutreApi        : "com.alibaba:arouter-api:${dependVersion["aroutreApiVersion"]}",
-            arouterCompiler   : "com.alibaba:arouter-compiler:${dependVersion["arouterCompilerVersion"]}",
+//            aroutreApi        : "com.alibaba:arouter-api:${dependVersion["aroutreApiVersion"]}",
+//            arouterCompiler   : "com.alibaba:arouter-compiler:${dependVersion["arouterCompilerVersion"]}",
 
             //腾讯X5
             tbssdk            : "com.tencent.tbs:tbssdk:${dependVersion["tbssdkVersion"]}",

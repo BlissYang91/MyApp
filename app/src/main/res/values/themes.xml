@@ -6,4 +6,24 @@
     </style>
 
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
+    <style name="MyTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <!--    全透明背景主题  -->
+    <style name="themeTranslate" parent="Base.Theme.MyApp">
+        <!--                <item name="android:windowAnimationStyle">@style/Animation</item>&lt;!&ndash;页面淡入淡出动画&ndash;&gt;-->
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
 </resources>
